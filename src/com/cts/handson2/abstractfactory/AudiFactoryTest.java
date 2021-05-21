@@ -12,7 +12,7 @@ public class AudiFactoryTest {
 
     @Before
     public void setup() {
-        factory = new AudiFactory();
+        factory = Factory.createFactory("audi");
     }
 
     @Test
